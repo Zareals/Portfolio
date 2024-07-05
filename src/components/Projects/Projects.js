@@ -8,6 +8,7 @@ import windbreaker from "../../Assets/Projects/WindBreaker.png";
 import vaw from "../../Assets/Projects/VAWLogo.png";
 import vrexperimental from "../../Assets/Projects/HeavenHell.png";
 import kingkhalid from "../../Assets/Projects/kkf-master-brand.jpg";
+import wind from "../../Assets/Projects/SongWind.png";
 
 function Projects() {
   return (
@@ -63,6 +64,16 @@ function Projects() {
             />
           </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wind}
+              isBlog={false}
+              title="Song of The Wind"
+              description="A fun project to learn how to blend 2D and 3D in the same game and making a Turn Based combat inspired from Sea of Stars and Octopath Traveler."
+              demoLink="https://drive.google.com/file/d/1kN5e_nyxLzcOayCU5iM7kSVPI_bgWuu1/view?usp=sharing"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ideathon}
