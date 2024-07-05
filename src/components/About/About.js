@@ -6,6 +6,7 @@ import Github from "./Github";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Gitlab from "./Github";
 
 function About() {
   return (
@@ -43,7 +44,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        <Gitlab />
       </Container>
     </Container>
   );

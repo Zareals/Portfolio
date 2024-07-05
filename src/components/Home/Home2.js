@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGitlab,
 } from "react-icons/ai";
+import { SiArtstation, SiUpwork } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing games to create
-               <b className="purple">Mobile Games</b> and
+               <b className="purple"> Mobile Games</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -68,7 +68,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillGitlab />
                 </a>
               </li>
               <li className="social-icons">
@@ -93,12 +93,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/nassef_bouanane/?hl=en"
+                  href="https://www.artstation.com/nassefbouanane"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiArtstation />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.upwork.com/freelancers/~01df48f5b7fb5bc3ad"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiUpwork />
                 </a>
               </li>
             </ul>

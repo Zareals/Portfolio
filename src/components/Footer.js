@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
+  AiFillGitlab,
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiArtstation, SiUpwork } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -16,7 +17,7 @@ function Footer() {
           <h3>With Love ❤️</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} Nassef Bounanane</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -27,7 +28,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiFillGitlab />
               </a>
             </li>
             <li className="social-icons">

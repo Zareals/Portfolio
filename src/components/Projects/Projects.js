@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import fitness from "../../Assets/Projects/FT.png";
+import ideathon from "../../Assets/Projects/frame0045.png";
 import windbreaker from "../../Assets/Projects/WindBreaker.png";
 import vaw from "../../Assets/Projects/VAWLogo.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import vrexperimental from "../../Assets/Projects/HeavenHell.png";
 import kingkhalid from "../../Assets/Projects/kkf-master-brand.jpg";
 
 function Projects() {
@@ -24,6 +24,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vaw}
+              videoPath= "https://storage.googleapis.com/creatorspace-public/users%2Fclqfe4p8t00fbq1018lrqxle8%2FaR8Gt9gYac1AoAFs-movie_006.mp4"
+              isVideo={false}
               isBlog={false}
               title="Virtual Adventure Workout"
               description="Step into a new era with our VR health system. It integrates virtual reality for precision in patient care, with intuitive interfaces and real-time insights."
@@ -50,40 +52,37 @@ function Projects() {
               demoLink="https://docs.vaw.training/The-Boxing-Game-988b883e1ba84310820fffbba8ba7131"              
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fitness}
+              isBlog={false}
+              title="Fitness Tracker"
+              description="While gameplay elements may vary across levels, the metrics we collect remain consistent. This ensures continuity in tracking the player's performance and allows for comprehensive analysis regardless of the specific challenges presented in each level."
+              demoLink="https://streamable.com/bga3hq"              
+            />
+          </Col>
           
-          {/*<Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              imgPath={ideathon}
+              isBlog={true}
+              title="Ideathon 3"
+              description="A 2D platform that can be switched to a 2D top-down shooter, The player has multiple abilities like a dash, time slow, grabbing hook...
+              The game has also a multiplayer mode."
+              demoLink="https://www.artstation.com/artwork/yJ31xK"              
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={vrexperimental}
+              isBlog={true}
+              title="Heaven and Hell"
+              description="an expiremental VR game for an art competion"
+              demoLink="https://drive.google.com/file/d/1lBaShR2VUEbaJcZrWDrB4qgAf9APQOup/view?usp=sharing"              
             />
-          </Col> */}
+          </Col>
           
         </Row>
       </Container>

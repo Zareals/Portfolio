@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import GitlabCalendar from "gitlab-calendar";
 import { Row } from "react-bootstrap";
 
 function Github() {
@@ -18,5 +19,6 @@ function Github() {
     </Row>
   );
 }
+
 
 export default Github;
