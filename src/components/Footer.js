@@ -5,7 +5,6 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiArtstation, SiUpwork } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
