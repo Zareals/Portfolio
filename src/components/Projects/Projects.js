@@ -56,6 +56,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={windbreaker}
+              isBlog={false}
+              title="VR Project"
+              description="While gameplay elements may vary across levels, the metrics we collect remain consistent. This ensures continuity in tracking the player's performance and allows for comprehensive analysis regardless of the specific challenges presented in each level."
+              demoLink="https://docs.vaw.training/The-Boxing-Game-988b883e1ba84310820fffbba8ba7131"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={fitness}
               isBlog={false}
               title="Fitness Tracker"
@@ -63,6 +73,8 @@ function Projects() {
               demoLink="https://streamable.com/bga3hq"              
             />
           </Col>
+
+          
           
           <Col md={4} className="project-card">
             <ProjectCard
