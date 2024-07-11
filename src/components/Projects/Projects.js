@@ -50,17 +50,37 @@ function Projects() {
               isBlog={false}
               title="WindBreaker"
               description="While gameplay elements may vary across levels, the metrics we collect remain consistent. This ensures continuity in tracking the player's performance and allows for comprehensive analysis regardless of the specific challenges presented in each level."
-              demoLink="https://docs.vaw.training/The-Boxing-Game-988b883e1ba84310820fffbba8ba7131"              
+              demoLink="https://drive.google.com/file/d/1rBJrhw72z39uMLSwWaTzHvXvs2w2PIVl/view?usp=sharing"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={windbreaker}
+              imgPath={vrexperimental}
               isBlog={false}
-              title="VR Project"
-              description="While gameplay elements may vary across levels, the metrics we collect remain consistent. This ensures continuity in tracking the player's performance and allows for comprehensive analysis regardless of the specific challenges presented in each level."
-              demoLink="https://docs.vaw.training/The-Boxing-Game-988b883e1ba84310820fffbba8ba7131"              
+              title="House Appliance VR Game"
+              description="A VR Project for a client that needs a simulation for energy consumption in his house."
+              demoLink="https://drive.google.com/file/d/1xThaa9FOX1v5MkMsf5g4gsD-yEVTFr75/view?usp=sharing"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vrexperimental}
+              isBlog={false}
+              title="VAW Running"
+              description="The Second VR Game For VAW"
+              demoLink="https://drive.google.com/file/d/1TcIcJOBdBWI9yKVs5X3l5pD-dzUoG6ZK/view?usp=sharing"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vrexperimental}
+              isBlog={false}
+              title="VAW Biking"
+              description="The third VR Game For VAW"
+              demoLink="https://drive.google.com/file/d/1c9IUW9YkH7YpGMdKLgF8706ujhaCXxo8/view?usp=sharing"              
             />
           </Col>
 
