@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.71583084.js",
-    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/frame0045.png": "/Portfolio/static/media/frame0045.28688c960dc59e918f28.png",
-    "static/media/WindBreaker.png": "/Portfolio/static/media/WindBreaker.4b16f6225300809c7863.png",
-    "static/media/FT.png": "/Portfolio/static/media/FT.cb5b50c49076bc7645c4.png",
-    "static/media/HeavenHell.png": "/Portfolio/static/media/HeavenHell.b6cd4c7da485ef80d83f.png",
-    "static/media/kkf-master-brand.jpg": "/Portfolio/static/media/kkf-master-brand.df2d43d5430ad1ff215f.jpg",
-    "static/media/NassefBouanane.pdf": "/Portfolio/static/media/NassefBouanane.f4ea704cd9900efc4ca3.pdf",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/VAWLogo.png": "/Portfolio/static/media/VAWLogo.4884c75b289a6b375f64.png",
-    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/Portfolio/index.html",
-    "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.71583084.js.map": "/Portfolio/static/js/main.71583084.js.map",
-    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.18c476ba.css",
+    "main.js": "/static/js/main.9e9f87ee.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/SongWind.png": "/static/media/SongWind.3b7853a29f9a0566823f.png",
+    "static/media/frame0045.png": "/static/media/frame0045.28688c960dc59e918f28.png",
+    "static/media/WindBreaker.png": "/static/media/WindBreaker.4b16f6225300809c7863.png",
+    "static/media/FT.png": "/static/media/FT.cb5b50c49076bc7645c4.png",
+    "static/media/HeavenHell.png": "/static/media/HeavenHell.b6cd4c7da485ef80d83f.png",
+    "static/media/kkf-master-brand.jpg": "/static/media/kkf-master-brand.df2d43d5430ad1ff215f.jpg",
+    "static/media/NassefBouanane.pdf": "/static/media/NassefBouanane.f4ea704cd9900efc4ca3.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/VAWLogo.png": "/static/media/VAWLogo.4884c75b289a6b375f64.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.18c476ba.css.map": "/static/css/main.18c476ba.css.map",
+    "main.9e9f87ee.js.map": "/static/js/main.9e9f87ee.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e558664.css",
-    "static/js/main.71583084.js"
+    "static/css/main.18c476ba.css",
+    "static/js/main.9e9f87ee.js"
   ]
 }
