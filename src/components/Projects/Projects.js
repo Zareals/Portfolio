@@ -9,7 +9,7 @@ import vaw from "../../Assets/Projects/VAWLogo.png";
 import vrexperimental from "../../Assets/Projects/HeavenHell.png";
 import kingkhalid from "../../Assets/Projects/kkf-master-brand.jpg";
 import wind from "../../Assets/Projects/SongWind.png";
-import XRHouse from "../../Assets/Projects/XRHouse.png";
+import XRHouse from "../../Assets/Projects/Carbon Emission.png";
 
 function Projects() {
   return (
