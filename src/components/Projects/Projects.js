@@ -9,6 +9,7 @@ import vaw from "../../Assets/Projects/VAWLogo.png";
 import vrexperimental from "../../Assets/Projects/HeavenHell.png";
 import kingkhalid from "../../Assets/Projects/kkf-master-brand.jpg";
 import wind from "../../Assets/Projects/SongWind.png";
+import XRHouse from "../../Assets/Projects/XRHouse.png";
 
 function Projects() {
   return (
@@ -56,11 +57,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vrexperimental}
+              imgPath={XRHouse}
               isBlog={false}
-              title="House Appliance VR Game"
+              title="House Appliance MR Game"
               description="A VR Project for a client that needs a simulation for energy consumption in his house."
-              demoLink="https://drive.google.com/file/d/1xThaa9FOX1v5MkMsf5g4gsD-yEVTFr75/view?usp=sharing"              
+              demoLink="https://drive.google.com/file/d/1e8qoiNaWa6vOWkntCr7J1FRybzoB5nJ1/view?usp=sharing"              
             />
           </Col>
 
