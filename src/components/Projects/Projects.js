@@ -10,6 +10,7 @@ import vrexperimental from "../../Assets/Projects/HeavenHell.png";
 import kingkhalid from "../../Assets/Projects/kkf-master-brand.jpg";
 import wind from "../../Assets/Projects/SongWind.png";
 import XRHouse from "../../Assets/Projects/Carbon Emission.png";
+import XRRace from "../../Assets/Projects/XR Race.png";
 
 function Projects() {
   return (
@@ -92,6 +93,16 @@ function Projects() {
               title="Fitness Tracker"
               description="While gameplay elements may vary across levels, the metrics we collect remain consistent. This ensures continuity in tracking the player's performance and allows for comprehensive analysis regardless of the specific challenges presented in each level."
               demoLink="https://streamable.com/bga3hq"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={XRRace}
+              isBlog={false}
+              title="MR Racing"
+              description="A demo for a client that needs a simulation for energy consumption using Car."
+              demoLink="https://drive.google.com/file/d/16P-jUC_rFAQEGrzMNjppiAZLaorzvni0/view?usp=sharing"              
             />
           </Col>
 
