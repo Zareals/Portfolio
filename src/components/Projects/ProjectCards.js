@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { BsCameraVideo, BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -21,8 +21,8 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <BsCameraVideo /> &nbsp;
+          {props.isBlog ? "Video" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
@@ -36,7 +36,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {"Video"}
           </Button>
         )}
       </Card.Body>
