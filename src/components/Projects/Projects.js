@@ -112,7 +112,7 @@ function Projects() {
             <ProjectCard
               imgPath={InfiniteLives}
               isBlog={true}
-              title="Infinite Simulation"
+              title="Infinite Life Simulation"
               description="Simulation game for IOS and Android"
               ghLink="https://www.infinitelifes.com/"              
             />
