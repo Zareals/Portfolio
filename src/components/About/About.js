@@ -49,7 +49,7 @@ function About() {
           <Col md={12} className="webgl-game">
             <h2 className="purple">Try My Unity Game</h2>
             <iframe
-              src="Game/Index.html"
+              src="https://html-classic.itch.zone/html/10306488/index.html"
               title="Unity Game"
               width="100%"
               height="720px"
