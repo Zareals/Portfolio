@@ -47,7 +47,7 @@ function About() {
         <Row>
         <Row>
           <Col md={12} className="webgl-game">
-            <h2 className="purple">Try My Unity Game</h2>
+            <h2 className="purple">WebGl Game</h2>
             <iframe
               src="https://html-classic.itch.zone/html/10306488/index.html"
               title="Unity Game"
