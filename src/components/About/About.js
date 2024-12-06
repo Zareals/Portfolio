@@ -43,6 +43,26 @@ function About() {
         <Toolstack />
 
         <Gitlab />
+
+        <Row>
+        <Row>
+          <Col md={12} className="webgl-game">
+            <h2 className="purple">Try My Unity Game</h2>
+            <iframe
+              src="Game/Index.html"
+              title="Unity Game"
+              width="100%"
+              height="720px"
+              style={{
+                border: "none",
+                overflow: "hidden",
+                marginTop: "20px",
+              }}
+              allowFullScreen
+            ></iframe>
+          </Col>
+        </Row>
+        </Row>
       </Container>
     </Container>
   );
